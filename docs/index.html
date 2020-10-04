@@ -16,7 +16,17 @@
     <input type="text" size="12" id="f" />
     <input type="submit" />
 </form>
-<script src="chetbot.js"></script>
+<script >
+function saveUn() {
+    var f = document.getElementById('f').value;
+    if (f == "hello" || f == "good morning" || f == "good afternoon" || f == "good night")
+        alert("Hello, human.");
+    if (f == "what day is today")
+        alert(new Date());
+    return false;
+}
+
+</script>
             <br>
             <p>Chetbot V.1.0 by EMC-prog</p>
         </div>
